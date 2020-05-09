@@ -9,6 +9,7 @@ $(document).ready(function (){
     // });
 
     $('.btnVerificar').click(function(){
+        $('table td').remove();
         var carta = $('.carta').val();
         var allNames = [];
         var linhas = carta.split(/\r|\r\n|\n/);
